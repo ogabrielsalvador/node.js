@@ -1,0 +1,17 @@
+<!--
+O "action" refere-se ao caminho que o envio dos dados será direcionado
+
+O "method" refere-se a forma em que os dados serão enviados
+Existem duas formas de preenchimento do "method"
+São elas: o "GET" ou o "POST"
+O "GET" irá enviar os dados pela url, por isso ele é pouco usado (devido a falta de segurança)
+O "POST" irá enviar os dados de outra forma
+-->
+
+<form action="/envio" method="POST">
+    <p>Título: </p>
+    <input type="text" name="titulo">
+    <p>Conteúdo: </p>
+    <textarea name="conteudo"></textarea>
+    <button type="submit">Cadastrar Postagem</button>
+</form>
